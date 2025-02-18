@@ -1,0 +1,93 @@
+[gd_scene load_steps=4 format=3 uid="uid://dyhrumxep8bch"]
+
+[ext_resource type="Script" path="res://scenes/AfterWon/AfterWon.gd" id="1_odjar"]
+[ext_resource type="Theme" uid="uid://do3uyqudg7lj7" path="res://scenes/game/button theme.tres" id="2_mt1ls"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_3wuth"]
+
+[node name="AfterWon" type="Node2D"]
+script = ExtResource("1_odjar")
+
+[node name="CenterContainer" type="CenterContainer" parent="."]
+offset_right = 1073.0
+offset_bottom = 2402.0
+
+[node name="VBoxContainer" type="VBoxContainer" parent="CenterContainer"]
+layout_mode = 2
+
+[node name="AspectRatioContainer" type="AspectRatioContainer" parent="CenterContainer/VBoxContainer"]
+layout_mode = 2
+
+[node name="CenterContainer" type="CenterContainer" parent="CenterContainer/VBoxContainer"]
+layout_mode = 2
+
+[node name="GuessedPhrase" type="HBoxContainer" parent="CenterContainer/VBoxContainer/CenterContainer"]
+layout_mode = 2
+theme = ExtResource("2_mt1ls")
+
+[node name="AspectRatioContainer2" type="AspectRatioContainer" parent="CenterContainer/VBoxContainer"]
+layout_mode = 2
+
+[node name="CenterContainer3" type="CenterContainer" parent="CenterContainer/VBoxContainer"]
+layout_mode = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="CenterContainer/VBoxContainer/CenterContainer3"]
+layout_mode = 2
+
+[node name="CenterContainer" type="CenterContainer" parent="CenterContainer/VBoxContainer/CenterContainer3/VBoxContainer"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="CenterContainer/VBoxContainer/CenterContainer3/VBoxContainer/CenterContainer"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 45
+theme_override_styles/normal = SubResource("StyleBoxEmpty_3wuth")
+text = "Please"
+
+[node name="CenterContainer2" type="CenterContainer" parent="CenterContainer/VBoxContainer/CenterContainer3/VBoxContainer"]
+layout_mode = 2
+
+[node name="Label2" type="Label" parent="CenterContainer/VBoxContainer/CenterContainer3/VBoxContainer/CenterContainer2"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 30
+text = "(mama said that if I ask nicely I will get what I want)"
+
+[node name="AspectRatioContainer3" type="AspectRatioContainer" parent="CenterContainer/VBoxContainer"]
+layout_mode = 2
+
+[node name="ANSWER_CONTAINER" type="AspectRatioContainer" parent="CenterContainer/VBoxContainer"]
+custom_minimum_size = Vector2(0, 700)
+layout_mode = 2
+
+[node name="CenterContainer" type="CenterContainer" parent="CenterContainer/VBoxContainer/ANSWER_CONTAINER"]
+layout_mode = 2
+
+[node name="YES_BUTTON" type="Button" parent="CenterContainer/VBoxContainer/ANSWER_CONTAINER/CenterContainer"]
+custom_minimum_size = Vector2(200, 150)
+layout_mode = 2
+theme = ExtResource("2_mt1ls")
+text = "YES"
+
+[node name="Container" type="Container" parent="CenterContainer/VBoxContainer/ANSWER_CONTAINER"]
+layout_mode = 2
+size_flags_horizontal = 0
+size_flags_vertical = 0
+
+[node name="NO_BUTTON" type="Button" parent="CenterContainer/VBoxContainer/ANSWER_CONTAINER/Container"]
+custom_minimum_size = Vector2(200, 150)
+layout_mode = 2
+theme = ExtResource("2_mt1ls")
+text = "NO"
+
+[node name="CenterContainer2" type="CenterContainer" parent="CenterContainer/VBoxContainer"]
+layout_mode = 2
+
+[node name="Label2" type="Label" parent="CenterContainer/VBoxContainer/CenterContainer2"]
+visible = false
+layout_mode = 2
+theme = ExtResource("2_mt1ls")
+theme_override_colors/font_color = Color(1, 0, 0, 1)
+text = "Wrong answer,
+Please try again"
+
+[connection signal="pressed" from="CenterContainer/VBoxContainer/ANSWER_CONTAINER/CenterContainer/YES_BUTTON" to="." method="_on_yes_button_pressed"]
+[connection signal="pressed" from="CenterContainer/VBoxContainer/ANSWER_CONTAINER/Container/NO_BUTTON" to="." method="_on_no_button_pressed"]

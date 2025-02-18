@@ -1,0 +1,328 @@
+[gd_scene load_steps=2 format=3 uid="uid://bumge1rraltr4"]
+
+[ext_resource type="Script" path="res://scenes/AfterWin/justWon.gd" id="1_vvjej"]
+
+[node name="justWon" type="Node2D"]
+script = ExtResource("1_vvjej")
+
+[node name="BoxContainer" type="BoxContainer" parent="."]
+offset_left = 134.0
+offset_top = 39.0
+offset_right = 438.0
+offset_bottom = 91.0
+
+[node name="Can_0" type="HBoxContainer" parent="BoxContainer"]
+layout_mode = 2
+
+[node name="C_0" type="VBoxContainer" parent="BoxContainer/Can_0"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="BoxContainer/Can_0/C_0" groups=["c"]]
+layout_mode = 2
+text = "C"
+
+[node name="Line2D" type="Line2D" parent="BoxContainer/Can_0/C_0"]
+position = Vector2(5, 28)
+scale = Vector2(1.2875, 1)
+points = PackedVector2Array(0, -5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0)
+
+[node name="A_1" type="VBoxContainer" parent="BoxContainer/Can_0"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="BoxContainer/Can_0/A_1" groups=["a"]]
+layout_mode = 2
+text = "A"
+
+[node name="Line2D" type="Line2D" parent="BoxContainer/Can_0/A_1"]
+position = Vector2(5, 28)
+scale = Vector2(1.2875, 1)
+points = PackedVector2Array(0, -5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0)
+
+[node name="N_2" type="VBoxContainer" parent="BoxContainer/Can_0"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="BoxContainer/Can_0/N_2" groups=["n"]]
+layout_mode = 2
+text = "N"
+
+[node name="Line2D" type="Line2D" parent="BoxContainer/Can_0/N_2"]
+position = Vector2(5, 28)
+scale = Vector2(1.2875, 1)
+points = PackedVector2Array(0, -5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0)
+
+[node name="AspectRatioContainer" type="AspectRatioContainer" parent="BoxContainer"]
+layout_mode = 2
+ratio = 10.0
+
+[node name="HSplitContainer" type="HSplitContainer" parent="BoxContainer"]
+layout_mode = 2
+
+[node name="I_1" type="HBoxContainer" parent="BoxContainer"]
+layout_mode = 2
+
+[node name="I_0" type="VBoxContainer" parent="BoxContainer/I_1"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="BoxContainer/I_1/I_0" groups=["i"]]
+layout_mode = 2
+text = "I"
+
+[node name="Line2D" type="Line2D" parent="BoxContainer/I_1/I_0"]
+position = Vector2(3.56251, 28)
+scale = Vector2(1.14375, 1)
+points = PackedVector2Array(0, -5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0)
+
+[node name="AspectRatioContainer2" type="AspectRatioContainer" parent="BoxContainer"]
+layout_mode = 2
+ratio = 10.0
+
+[node name="HSplitContainer2" type="HSplitContainer" parent="BoxContainer"]
+layout_mode = 2
+
+[node name="Get_2" type="HBoxContainer" parent="BoxContainer"]
+layout_mode = 2
+
+[node name="G_0" type="VBoxContainer" parent="BoxContainer/Get_2"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="BoxContainer/Get_2/G_0" groups=["g"]]
+layout_mode = 2
+text = "G
+"
+
+[node name="Line2D" type="Line2D" parent="BoxContainer/Get_2/G_0"]
+position = Vector2(5, 28)
+scale = Vector2(1.2875, 1)
+points = PackedVector2Array(0, -5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0)
+
+[node name="E_1" type="VBoxContainer" parent="BoxContainer/Get_2"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="BoxContainer/Get_2/E_1" groups=["e"]]
+layout_mode = 2
+text = "E
+"
+
+[node name="Line2D" type="Line2D" parent="BoxContainer/Get_2/E_1"]
+position = Vector2(4.5625, 28)
+scale = Vector2(1.24375, 1)
+points = PackedVector2Array(0, -5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0)
+
+[node name="T_2" type="VBoxContainer" parent="BoxContainer/Get_2"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="BoxContainer/Get_2/T_2" groups=["t"]]
+layout_mode = 2
+text = "T
+"
+
+[node name="Line2D" type="Line2D" parent="BoxContainer/Get_2/T_2"]
+position = Vector2(5.93749, 28)
+scale = Vector2(1.19375, 1)
+points = PackedVector2Array(0, -5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0)
+
+[node name="AspectRatioContainer3" type="AspectRatioContainer" parent="BoxContainer"]
+layout_mode = 2
+ratio = 10.0
+
+[node name="HSplitContainer3" type="HSplitContainer" parent="BoxContainer"]
+layout_mode = 2
+
+[node name="Your_3" type="HBoxContainer" parent="BoxContainer"]
+layout_mode = 2
+
+[node name="Y_0" type="VBoxContainer" parent="BoxContainer/Your_3"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="BoxContainer/Your_3/Y_0" groups=["y"]]
+layout_mode = 2
+text = "Y
+"
+
+[node name="Line2D" type="Line2D" parent="BoxContainer/Your_3/Y_0"]
+position = Vector2(5, 28)
+scale = Vector2(1.2875, 1)
+points = PackedVector2Array(0, -5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0)
+
+[node name="O_1" type="VBoxContainer" parent="BoxContainer/Your_3"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="BoxContainer/Your_3/O_1" groups=["o"]]
+layout_mode = 2
+text = "O
+
+"
+
+[node name="Line2D" type="Line2D" parent="BoxContainer/Your_3/O_1"]
+position = Vector2(7, 28)
+scale = Vector2(1.24375, 1)
+points = PackedVector2Array(0, -5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0)
+
+[node name="U_2" type="VBoxContainer" parent="BoxContainer/Your_3"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="BoxContainer/Your_3/U_2" groups=["u"]]
+layout_mode = 2
+text = "U"
+
+[node name="Line2D" type="Line2D" parent="BoxContainer/Your_3/U_2"]
+position = Vector2(5.93749, 28)
+scale = Vector2(1.19375, 1)
+points = PackedVector2Array(0, -5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0)
+
+[node name="R_3" type="VBoxContainer" parent="BoxContainer/Your_3"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="BoxContainer/Your_3/R_3" groups=["r"]]
+layout_mode = 2
+text = "R"
+
+[node name="Line2D" type="Line2D" parent="BoxContainer/Your_3/R_3"]
+position = Vector2(5.93749, 28)
+scale = Vector2(1.19375, 1)
+points = PackedVector2Array(0, -5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0)
+
+[node name="AspectRatioContainer4" type="AspectRatioContainer" parent="BoxContainer"]
+layout_mode = 2
+ratio = 10.0
+
+[node name="HSplitContainer4" type="HSplitContainer" parent="BoxContainer"]
+layout_mode = 2
+
+[node name="Number_4" type="HBoxContainer" parent="BoxContainer"]
+layout_mode = 2
+
+[node name="N_0" type="VBoxContainer" parent="BoxContainer/Number_4"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="BoxContainer/Number_4/N_0" groups=["n"]]
+layout_mode = 2
+text = "N"
+
+[node name="Line2D" type="Line2D" parent="BoxContainer/Number_4/N_0"]
+position = Vector2(5, 28)
+scale = Vector2(1.2875, 1)
+points = PackedVector2Array(0, -5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0)
+
+[node name="U_1" type="VBoxContainer" parent="BoxContainer/Number_4"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="BoxContainer/Number_4/U_1" groups=["u"]]
+layout_mode = 2
+text = "U"
+
+[node name="Line2D" type="Line2D" parent="BoxContainer/Number_4/U_1"]
+position = Vector2(5, 28)
+scale = Vector2(1.2875, 1)
+points = PackedVector2Array(0, -5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0)
+
+[node name="M_2" type="VBoxContainer" parent="BoxContainer/Number_4"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="BoxContainer/Number_4/M_2" groups=["m"]]
+layout_mode = 2
+text = "M"
+
+[node name="Line2D" type="Line2D" parent="BoxContainer/Number_4/M_2"]
+position = Vector2(5, 28)
+scale = Vector2(1.2875, 1)
+points = PackedVector2Array(0, -5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0)
+
+[node name="B_3" type="VBoxContainer" parent="BoxContainer/Number_4"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="BoxContainer/Number_4/B_3" groups=["b"]]
+layout_mode = 2
+text = "B"
+
+[node name="Line2D" type="Line2D" parent="BoxContainer/Number_4/B_3"]
+position = Vector2(5, 28)
+scale = Vector2(1.2875, 1)
+points = PackedVector2Array(0, -5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0)
+
+[node name="E_4" type="VBoxContainer" parent="BoxContainer/Number_4"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="BoxContainer/Number_4/E_4" groups=["e"]]
+layout_mode = 2
+text = "E"
+
+[node name="Line2D" type="Line2D" parent="BoxContainer/Number_4/E_4"]
+position = Vector2(5, 28)
+scale = Vector2(1.2875, 1)
+points = PackedVector2Array(0, -5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0)
+
+[node name="R_5" type="VBoxContainer" parent="BoxContainer/Number_4"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="BoxContainer/Number_4/R_5" groups=["r"]]
+layout_mode = 2
+text = "R"
+
+[node name="Line2D" type="Line2D" parent="BoxContainer/Number_4/R_5"]
+position = Vector2(5.93749, 28)
+scale = Vector2(1.19375, 1)
+points = PackedVector2Array(0, -5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0)
+
+[node name="AspectRatioContainer5" type="AspectRatioContainer" parent="BoxContainer"]
+layout_mode = 2
+ratio = 10.0
+
+[node name="HSplitContainer5" type="HSplitContainer" parent="BoxContainer"]
+layout_mode = 2
+
+[node name="QM_6" type="HBoxContainer" parent="BoxContainer"]
+layout_mode = 2
+
+[node name="QM_0" type="VBoxContainer" parent="BoxContainer/QM_6"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="BoxContainer/QM_6/QM_0"]
+layout_mode = 2
+text = "?
+"
+
+[node name="Line2D" type="Line2D" parent="BoxContainer/QM_6/QM_0"]
+position = Vector2(3.56251, 28)
+scale = Vector2(1.14375, 1)
+points = PackedVector2Array(0, -5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0)
+
+[node name="RichTextLabel" type="RichTextLabel" parent="."]
+offset_left = 133.0
+offset_top = 87.0
+offset_right = 445.0
+offset_bottom = 136.0
+text = "Please (mama said that if I ask nicely I will get what I want)"
+
+[node name="No1" type="Button" parent="."]
+offset_left = 136.0
+offset_top = 171.0
+offset_right = 214.0
+offset_bottom = 218.0
+text = "NO"
+
+[node name="Button3" type="Button" parent="."]
+offset_left = 233.0
+offset_top = 174.0
+offset_right = 311.0
+offset_bottom = 221.0
+text = "Yes"
+
+[node name="No2" type="Button" parent="."]
+offset_left = 330.0
+offset_top = 173.0
+offset_right = 408.0
+offset_bottom = 220.0
+text = "NO"
+
+[node name="Label" type="Label" parent="."]
+offset_left = 149.0
+offset_top = 139.0
+offset_right = 391.0
+offset_bottom = 165.0
+theme_override_colors/font_color = Color(1, 0, 0, 1)
+text = "Wrong answer, Please try again"
+
+[connection signal="pressed" from="No1" to="." method="_on_no_1_pressed"]
+[connection signal="pressed" from="Button3" to="." method="_on_button_3_pressed"]
+[connection signal="pressed" from="No2" to="." method="_on_no_2_pressed"]

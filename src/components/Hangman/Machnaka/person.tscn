@@ -1,0 +1,93 @@
+[gd_scene load_steps=2 format=3 uid="uid://b0ww1dy0t6lul"]
+
+[ext_resource type="Script" path="res://components/Hangman/Machnaka/head.gd" id="1_2k6h1"]
+
+[node name="hangman" type="Node2D"]
+position = Vector2(94.1858, 534.815)
+scale = Vector2(3.5, 3.5)
+
+[node name="pole" type="Line2D" parent="."]
+position = Vector2(0, 1.62512)
+scale = Vector2(2, 2.79873)
+points = PackedVector2Array(-0.1694, 16.5889, -0.1694, -50.4824, 51.8306, -50.4824)
+width = 3.0
+texture_mode = 72
+joint_mode = 2
+end_cap_mode = 2
+
+[node name="rope" type="Line2D" parent="pole"]
+position = Vector2(31.8621, -0.0327072)
+scale = Vector2(0.5, 0.5)
+points = PackedVector2Array(40.7941, -99.596, 40.7941, -83.7487)
+width = 2.0
+texture_mode = 1209988752
+end_cap_mode = 2
+
+[node name="Base" type="Line2D" parent="pole"]
+position = Vector2(11.9735, 65.8092)
+scale = Vector2(0.5, 0.5)
+points = PackedVector2Array(-24.8572, -100.857, 219.714, -100.687)
+width = 5.0
+texture_mode = 1209988752
+end_cap_mode = 2
+
+[node name="person" type="Node2D" parent="."]
+position = Vector2(-5.11279, -0.989868)
+
+[node name="head" type="Node2D" parent="person"]
+position = Vector2(109.503, -99.9216)
+scale = Vector2(0.340955, 0.344121)
+script = ExtResource("1_2k6h1")
+
+[node name="head_pos" type="Marker2D" parent="person/head"]
+position = Vector2(0.5, -3.13994)
+scale = Vector2(1.67156, -0.668066)
+
+[node name="torso" type="Line2D" parent="person"]
+position = Vector2(63.7242, -6.6368)
+points = PackedVector2Array(46.1926, -79.4633, 46.1926, -30.0347)
+width = 7.0
+texture_mode = 72
+joint_mode = 2
+begin_cap_mode = 2
+end_cap_mode = 2
+
+[node name="left_arm" type="Line2D" parent="person"]
+position = Vector2(63.7242, -28.6368)
+points = PackedVector2Array(45.7653, -58.7338, 87.3355, -29.749)
+width = 3.0
+texture_mode = 72
+end_cap_mode = 2
+
+[node name="right_arm" type="Line2D" parent="person"]
+position = Vector2(63.7242, -28.6368)
+points = PackedVector2Array(45.3825, -58.4399, 4.76405, -28.8919)
+width = 3.0
+texture_mode = 72
+end_cap_mode = 2
+
+[node name="right_leg" type="Line2D" parent="person"]
+position = Vector2(63.7242, -6.6368)
+points = PackedVector2Array(45.7653, -30.024, 12.1926, 7.96526)
+width = 3.0
+texture_mode = 72
+end_cap_mode = 2
+
+[node name="left_leg" type="Line2D" parent="person"]
+position = Vector2(63.7242, -6.6368)
+points = PackedVector2Array(45.6266, -30.1627, 77.3355, 5.39383)
+width = 3.0
+texture_mode = 72
+end_cap_mode = 2
+
+[node name="right_shoe" type="Polygon2D" parent="person"]
+position = Vector2(93.9168, 9.32843)
+scale = Vector2(0.359325, 0.402177)
+antialiased = true
+polygon = PackedVector2Array(121.62, -25.1429, 142.488, -26.1001, 142.857, -15.4286, 171.714, -15.7143, 171.429, 8, 121.631, 7.89987)
+
+[node name="left_shoe" type="Polygon2D" parent="person"]
+position = Vector2(28.4883, 9.89986)
+scale = Vector2(0.359325, 0.402177)
+antialiased = true
+polygon = PackedVector2Array(121.62, -25.1429, 142.488, -26.1001, 142.857, -15.4286, 171.714, -15.7143, 171.429, 8, 121.631, 7.89987)
