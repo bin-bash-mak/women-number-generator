@@ -10,41 +10,41 @@ Ever found yourself at a party, locked in a mental battle over the perfect way t
 
 2. Now she is faced with a screen asking her if she wants to play a game. (Disclaimer: It was leaked that allegedly, during the development of this app, some women thought that a serial k*ll3r was after them during a focus group research but the creators neither confirmed nor denied said allegations )
 <p align="center">
-  <img src="./docs/screenshots/1-home-screen.png" alt="home-screen" style="height:400"/>
+  <img src="./docs/screenshots/1-home-screen.png" alt="home-screen"height="400"/>
 </p>
 
 3. Some people might say that she has the option to say no. But like life, choice is just ans illusion and if she tries to select no, the gets that it's the wrong answer. And logically, she has no other option than to say yes.
 <p align="center">
-  <img src="./docs/screenshots/2-nome-screen-no.png" alt="home-screen-no" style="height:400"/>
+  <img src="./docs/screenshots/2-nome-screen-no.png" alt="home-screen-no"height="400"/>
 </p>
 
 4. She is now inside the game. We should also point out that this game is definitely a new concept and not inspired in any way, shape or form by hangman.
 
 <p align="center">
-  <img src="./docs/screenshots/3-hangman-game.png" alt="game" style="height:400"/>
+  <img src="./docs/screenshots/3-hangman-game.png" alt="game"height="400"/>
 </p>
 
 5. Now rest assured in case someone is a little bit tipsy, there's no mechanism in the game to lose.
 
 <p align="center">
-  <img src="./docs/screenshots/5-hangman-no-losing.png" alt="game-no-losing" style="height:400"/>
+  <img src="./docs/screenshots/5-hangman-no-losing.png" alt="game-no-losing"height="400"/>
 </p>
 
 6. And of course the question is "Can I get your number ?"
 <p align="center">
-  <img src="./docs/screenshots/4-hangman-game-word.png" alt="game-wunning" style="height:400"/>
+  <img src="./docs/screenshots/4-hangman-game-word.png" alt="game-wunning"height="400"/>
 </p>
 
 7. Now that she guessed the question, She has to answer it
 
 <p align="center">
-  <img src="./docs/screenshots/6-quesion.png" alt="question" style="height:400"/>
+  <img src="./docs/screenshots/6-quesion.png" alt="question"height="400"/>
 </p>
 
 8. And as discussed before, choice is an illusion, but the catch this time is that when the "NO" button is pressed, it jumps to a random place on the screen. SOme users reported the yes and no buttons getting swapped on keypress but this definitely a bug and not a feature that we were'nt able to replicate. (Note: this is a good time to embrace yourself as at this stage, there's a non 0 chance that you will either get slapped, kicked or you will face the infamous `drink toss` also known as the `cocktail slap`)
 
 <p align="center">
-  <img src="./docs/screenshots/7-question-no-answer.png" alt="question-no" style="height:400"/>
+  <img src="./docs/screenshots/7-question-no-answer.png" alt="question-no"height="400"/>
 </p>
 
 9. Et voilà, she now have to press yes and enter her number
