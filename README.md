@@ -50,7 +50,7 @@ Ever found yourself at a party, locked in a mental battle over the perfect way t
 9. Et voilà, she now have to press yes and enter her number
 
 <p align="center">
-  <img src="./docs/screenshots/8-tada.png" alt="number-input" style="max-height:400"/>
+  <img src="./docs/screenshots/8-tada.png" alt="number-input" style="max-height:400px"/>
 </p>
 
 ## Here's a video of the app flow
